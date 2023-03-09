@@ -7,6 +7,7 @@ if(isset($_POST['username']) && !empty($_POST['username'])) {
 
     if($result->rowCount() >=1 ) {
         //Todo: Faire le message de succès / Redirection
+        header("location:read.php");
     } else {
         $error = "Erreur dans la connexion, verifier votre username et mot de passe";
     }

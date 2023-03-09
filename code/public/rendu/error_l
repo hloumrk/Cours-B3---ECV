@@ -1,0 +1,1 @@
+[09-Mar-2023 11:44:17 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/public/rendu/fonction.ini.php:9) in /var/www/html/public/rendu/index.php on line 10
