@@ -13,3 +13,4 @@ function connexion() {
         return false;
     }
 }
+?>
